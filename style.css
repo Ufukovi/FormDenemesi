@@ -1,0 +1,76 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: #131034;
+}
+.signup-form 
+{
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    background: url(/arkaplan.jpg);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+h1 
+{
+    margin-top: 100px;
+    color: azure;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.signup-form input 
+{
+    display: block;
+    width: 100%;
+    padding: 0 16px;
+    height: 44px;
+    text-align: center;
+    box-sizing: border-box;
+    border: none;
+    
+}
+.txt 
+{
+    margin: 20px 0;
+    border-radius: 10px;
+
+}
+.sgnBtn
+{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    background-color: deepskyblue;
+    color: azure;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.8s;
+    display: block;
+}
+.sgnBtn:hover 
+{
+    background-color: coral;
+    transform: scale(0.96);
+    font-weight: bold;
+}
+.signup-form a 
+{
+    text-decoration: none;
+    color: azure;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 10px;
+    transition: 0.8s;
+
+}
+.signup-form a:hover 
+{
+    color:yellowgreen
+}
